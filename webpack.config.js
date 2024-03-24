@@ -20,6 +20,7 @@ module.exports = {
       {
         test: /\.(ts|js)$/,
         use: ["babel-loader"],
+        exclude: /node_modules/,
       },
     ],
   },
