@@ -35,6 +35,7 @@ module.exports = {
   devServer: {
     static: "public",
     hot: true,
+    watchFiles: ["src/*.html"],
   },
   resolve: {
     extensions: [".ts", ".js"],
